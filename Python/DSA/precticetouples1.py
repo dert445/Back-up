@@ -1,0 +1,6 @@
+coordinates = (10, 20)
+print(coordinates)
+list=list(coordinates)
+list.insert(0,50)
+coor=tuple(list)
+print(coor)

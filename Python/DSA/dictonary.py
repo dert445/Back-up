@@ -1,0 +1,9 @@
+marks={"boba":7.5,"deba":2,"dert":1.5}
+print(marks)
+print(marks["boba"])
+marks["dert"]=80
+print(marks)
+print(marks.keys())
+print(marks.values())
+marks.pop("deba")
+print(marks)
